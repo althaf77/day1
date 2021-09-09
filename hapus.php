@@ -11,7 +11,7 @@ if(isset($_GET['id'])){
 
     if($query){
         echo"<script>alert('Data Berhasil Dihapus');
-        window.location='berita.php';</script>";
+        window.location='covid.php';</script>";
     }else{
         die("data tidak ada");
     }

@@ -1,0 +1,119 @@
+a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+    
+  }
+  .menu{
+      background-color:#a0c1b8;
+  }
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #A0C1B8;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+    width: 25%;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+      display: none;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 300px;
+    padding: 1px 16px;
+    height: 1080px;
+    background-color: #fdfbfb;
+  }
+  .teks-content{
+      color: cyan;
+  
+  
+  }
+  .teks-copyright{
+      border-top: 1px solid rgba(250, 250, 250, 0.1);
+      display: inline-block;
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 30px;
+      font-size: 13px;
+  }
+  section{
+      color: rgb(104, 6, 6);
+      position: relative;
+      min-height: 10vh;
+      padding-bottom: 80px;
+      border-bottom: 3px solid rgba(5, 5, 5, 0.25);
+      margin-left: 5%;
+      text-align: center;
+  }
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  svg{
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      text-align: center;
+      margin-top: 60px;
+  }
+  .ikon ul li{
+      margin: 0 3px;
+      list-style-type: none;
+      display: inline-block;
+  }
+  .ikon{
+      margin-left: 7%;
+  }
+  .ikon ul li a{
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      text-align: center;
+      line-height: 15px;
+      color: rgb(46, 111, 185);
+      font-size: 14px;
+      transition: all 0.5s;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  

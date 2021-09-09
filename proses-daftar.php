@@ -16,7 +16,7 @@ if(isset($_POST['daftar'])){
 
     if($query){
         echo"<script>alert('Data Berhasil Disimpan');
-        window.location='berita.php';</script>";
+        window.location='covid.php';</script>";
     }else{
         header('Location: index.php/status=gagal');
     }

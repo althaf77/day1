@@ -16,7 +16,7 @@ if(isset($_POST['simpan'])){
 
     if($query){
         echo"<script>alert('Data Berhasil Diubah');
-        window.location='berita.php';</script>";
+        window.location='covid.php';</script>";
     } else {
         die('gagal');
     }
